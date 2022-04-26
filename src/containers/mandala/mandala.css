@@ -1,0 +1,257 @@
+.mandala__main {
+    display: flex;
+    flex-direction: column;    
+    /* background-color: yellow; */
+
+}
+
+.mandala__main-heading {
+    width: 100%;
+    text-align: left;
+ /* background-color: red; */
+    margin-bottom: 5rem;
+}
+
+.mandala__main-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.parent_container {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px;
+    /* background-color: yellow; */
+    
+
+}
+
+
+
+.canvas {
+    width: 1150px;
+    height: 700px;
+    border: 3px solid #333;
+    /* min-height: 500px; */
+    /* background-color: #dfdfdf; */
+
+}
+
+
+.settings {
+    width: 500px;
+    border: 3px var(gradient-bar);
+    min-height: 800px;
+    background-color: var(--color-blog);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 400px;
+    margin-left: 20px;
+
+}
+
+.textf {
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-end;
+    width: 300px;
+
+    background-color: aliceblue;
+}
+
+.canvas-cont {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-flow:column wrap;
+    
+}
+
+.canvas-cont__input {
+    
+    width: 400px;
+    background-color: #AE67FA;
+    color: black;
+}
+
+.settings-cont__input {
+    /* padding: 50px; */
+    width: 400px;
+    background-color: var(--color-blog);
+}
+
+.form__group {
+    padding: 50px;
+}
+
+.form__label {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  margin-left: 2rem;
+  margin-top: -5rem;
+  display: block;
+  transition: all 0.3s;
+  transform: translateY(0rem);
+  color: #AE67FA;
+}
+
+.form__input {
+  font-family: var(--font-family);
+  /* font-weight: 200px; */
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+	margin: auto;
+  padding: 1rem 1rem;
+  border-radius: 0.2rem;
+  background-color: #AE67FA;
+  border: none;
+  width: 90%;
+  display: block;
+border-bottom: 0.3rem solid transparent; 
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  color: rgb(245, 245, 245);
+  visibility: hidden;
+  -webkit-transform: translateY(4rem);
+  transform: translateY(4rem);
+}
+
+.form__select {
+    /* padding: 10%; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-select {
+
+    width: 350px;
+    height: 3.5rem;
+    font-family: var(--font-family);
+    font-size: 20px;
+    background-color: #AE67FA;
+}
+
+.switch_container {
+
+/* background-color: red; */
+width: 350px;
+margin-left: 70px;
+height: 60px;
+
+}
+.switch_field {
+    padding: 10px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    /* flex-flow: column wrap; */
+
+
+    
+}
+
+.switch_field label {
+    /* background-color: #AE67FA; */
+    /* padding-left: 2rem; */
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    color: black;
+    /* border:2px solid black; */
+    width: 350px;
+    border-radius: 2px;
+    color: #AE67FA;
+    padding-right: 30px;
+
+}
+
+.color_container{
+/* background-color: azure; */
+width: 350px;
+margin-left: 70px;
+height: 60px;
+
+}
+
+.color_field{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.color_field label {
+
+    font-family: var(--font-family);
+    font-size: 1.5rem;
+    color: black;
+    width: 350px;
+    border-radius: 2px;
+    color: #AE67FA;
+    padding-left: 20px;
+
+
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #AE67FA;
+  }
+
+  .button {
+    background-color: white;
+    color: black;
+    border: 2px solid #AE67FA;
+  }
+  
+  .button:hover {
+    background-color: #AE67FA;
+    color: white;
+  }
+
+.btn_container {
+    width: 150px;
+    margin-left: 180px;
+    height: 60px;
+    /* background-color: aliceblue; */
+}
+
+.canvas {
+/* 
+    position: relative; */
+    display: flex;
+    justify-content: center;
+    
+
+}
+img {
+     width: 700px;
+    height: 700px;
+    /* position: ;
+    right: 50%;
+    top: 50%;
+    transform: translate(-50% -50%);  */
+
+
+}
